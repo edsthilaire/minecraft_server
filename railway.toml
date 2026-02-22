@@ -1,0 +1,10 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+startCommand = "java -Xmx1G -Xms1G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -jar /minecraft/server.jar nogui"
+restartPolicy = "on_failure"
+healthchecks = { tcp = "25565" }
+
+[env]
+MEMORY = "1G"
