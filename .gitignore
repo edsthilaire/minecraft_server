@@ -1,0 +1,59 @@
+# Archivos del servidor Minecraft
+server.jar
+server.log
+cache/
+debug/
+logs/
+versions/
+world/
+world_nether/
+world_the_end/
+world_backup_*/
+latest.log
+
+# Datos del servidor
+usercache.json
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+eula.txt
+
+# Datos específicos de plugins
+plugins/*/userdata/
+plugins/*/regiondata/
+plugins/*/data/
+plugins/*/backups/
+
+# Archivos de configuración locales
+*.log
+*.old
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Backups
+backups/
+*.zip
+
+# Directorios generados
+node_modules/
+.env.local
+
+# Archivos específicos del servidor
+Medieval_Mansion.zip
+cosmic_config.json
